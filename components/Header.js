@@ -19,7 +19,7 @@ function Header() {
           <a className="mr-4">Twitter</a>
         </Link>
         <Link href="/">
-          <a href="/">Github</a>
+          <a>Github</a>
         </Link>
       </div>
     </div>
