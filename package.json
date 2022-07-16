@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
     "@tailwindcss/typography": "^0.5.2",
     "gray-matter": "^4.0.3",
     "next": "12.1.0",
