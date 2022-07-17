@@ -1,10 +1,12 @@
 import PostCard from "../components/PostCard";
 import getPosts from "../helpers/getPosts";
 import Firstvideo from "../videos/Firstvideo";
+import Seo from "../components/Seo";
 
 export default function Home({ posts }) {
   return (
     <div>
+      <Seo />
       <Firstvideo />
       <h1 className="mt-24 mb-12 font-bold text-3xl">Latest Posts</h1>
       {posts.map((post) => (
